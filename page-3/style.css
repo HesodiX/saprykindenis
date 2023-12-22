@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "RudaRegular";
+    src: url(../fonts/Ruda-Regular.ttf);
+}
+@font-face {
+    font-family: "RudaBold";
+    src: url(../fonts/Ruda-Bold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    user-select: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(56, 62, 125, 1);
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.header_container_1 {
+    width: 40%;
+    font-family: "RudaRegular";
+    font-size: 24px;
+    color: #fff;
+}
+.header_container_1_1 {
+    display: flex;
+    justify-content: space-around; 
+}
+.footer-container-1 {
+    display: flex;
+    gap: 35px;
+}
+.footer_container-1-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "RudaBold";
+    font-weight: bold;
+}
+.footer_container-1-1 p:nth-child(1) {
+    font-size: 15px;
+}
+.wdth {
+    max-width: 600px;
+} 
+.sml {
+    font-size: 24px;
+}
+.bg {
+    font-size: 32px;
+}
+footer a {
+    color: #000;
+    font-size: 32px;
+    font-family: "RudaRegular";
+}
+.footer_container-1-1-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.footer_container-2 {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_container-2-item {
+    display: flex;
+    max-width: 180px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(234, 234, 234, 1);
+    padding-top: 36px;
+    padding-bottom: 36px;
+    user-select: none;
+}
+.footer_container-2-item img {
+    cursor: pointer;
+}
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 24px;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.section-1 h1 {
+    font-family: "RudaBold";
+}
+.section-1 p {
+    font-family: "RudaRegular";
+}
+.section-1-container-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    max-width: 1230px;
+}
+.section-1-container-2 {
+    display: flex;
+    gap: 137px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section-1-container-2-1-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.section-1-container-2-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.section-1-container-2-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
